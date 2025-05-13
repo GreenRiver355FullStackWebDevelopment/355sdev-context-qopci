@@ -33,12 +33,12 @@ function App() {
     <RestaurantContext.Provider
       value={{ 
         restaurants: restaurantState, 
-        updateRestaurants 
+        updateRestaurants // Update function to context
       }}
     >
       <div className="App">
-        <AddRestaurant />
-        <RestaurantsContainer />
+        <AddRestaurant /> {/* Component that adds new restaurants */} 
+        <RestaurantsContainer /> {/* Component which displays the list of restaurants */} 
       </div>
     </RestaurantContext.Provider>
   );
