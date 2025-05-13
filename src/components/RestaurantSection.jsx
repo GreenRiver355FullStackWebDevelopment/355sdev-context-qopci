@@ -1,4 +1,4 @@
-import RestaurantsContainer from "./components/RestaurantsContainer";
+import RestaurantsContainer from "./RestaurantsContainer";
 
 function RestaurantSection() {
   return (
@@ -9,4 +9,4 @@ function RestaurantSection() {
   );
 }
 
-export default RestaurantSection
+export default RestaurantSection;
